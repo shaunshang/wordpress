@@ -1,0 +1,84 @@
+/*
+Theme Name: Custom Theme
+Theme URI: http://wordpress.org/extend/themes/customtheme
+Author: Shaun Shang
+Author URI: 
+Description: This is a fully custmized theme for learning wordpress purpose.
+Version: 1.0
+Tags: Sample, Custom, Interesting
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =========================== Begin General =========================== */
+html, body {
+	margin:0;
+	padding:0;
+}
+
+#wrap {
+	width:1000px;
+	margin:0 auto;
+}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+/* =========================== End General =========================== */
+
+/* =========================== Begin Header =========================== */
+#header {
+	text-align:center;
+}
+
+#header #nav li {
+	width:150px;
+	display:inline-block;
+}
+/* =========================== End Header =========================== */
+
+/* =========================== Begin Index =========================== */
+.contentBody {
+	width:80%;
+	float:left;
+}
+
+.contentBody .post_snippet {
+	border: 2px solid #ccc;
+	margin:40px 0px;
+	padding:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#sidebar {
+	width:20%;
+	margin:40px 0px;
+	float:left;
+}
+
+#sidebar ul li {
+	list-style-position: inside;
+}
+#footer {
+	text-align:center;
+}
+/* =========================== End Index =========================== */
+
+/* =========================== For Testing Only =========================== */
+.border {
+	border:solid 1px red;
+}
+.background {
+	background-color:red;
+}
+/* =========================== End Testing =========================== */
