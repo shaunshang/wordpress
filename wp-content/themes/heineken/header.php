@@ -16,6 +16,12 @@
 		</ul>
 	</div>
 	<div class="nav">
-		
+		<ul>
+			<li><a href="javascript:;">Welcome</a></li>
+			<li><a href="javascript:;">Campaign POS</a></li>
+			<li><a href="javascript:;">POS Example</a></li>
+			<li><a href="javascript:;">Approval Engine</a></li>
+			<li><a href="javascript:;">Support</a></li>
+		</ul>
 	</div>
 </div>
