@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-
+<!DOCTYPE >
 <html>
 <head>
 	<title><?php bloginfo('name') ?></title>
@@ -11,9 +10,34 @@
 		<?php get_header(); ?>
 		
 		<div class="body-section">
-			<div class="main-body"></div>
+			<div class="main-body">
+				<div class="body-banner"></div>
+				<div class="body-content">
+					<div class="content-title">
+						<h3>Welcome to the Heineken Engine</h3>
+						<p>
+							This central portal facilitates the ordering and approval process of all your
+							POS requirements, for global BTL Campaigns. You can order all BTL campaign
+							POS materials as required for your market/region.
+						</p>
+					</div>
+					<div class="content-list">
+						<?php if(have_posts()) : ?>
+							<h3>
+								<a href="<?php the_permalink() ?>">
+									<?php the_title() ?>
+								</a>
+							</h3>
+						<?php else : ?>
+							
+						<?php endif ?>
+					</div>
+				</div>
+			</div>
 			
+			<!--
 			<?php get_sidebar(); ?>
+			-->
 		</div>
 		
 		<?php get_footer(); ?>
