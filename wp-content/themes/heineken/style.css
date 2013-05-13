@@ -128,19 +128,19 @@ body {
 /* ================ index.php ================ */
 .body-section {
 	width:100%;
-	height:100%;
+	/*height:100%;*/
 	position:relative;
 	margin-top:1px;
+	overflow:visible;
 }
 .body-section .main-body {
 	width:568px;
 	height:100%;
 	margin:0 auto;
 	position:relative;
-	overflow-x:hidden;
-	overflow-y:visible;
+	overflow:visible;
 	display:block;
-	background:rgba(0, 0, 0, 0.2);
+	background:rgba(0, 0, 0, 0.1);
 }
 .body-section .main-body .body-banner {
 	width:100%;
@@ -153,7 +153,7 @@ body {
 }
 .body-section .main-body .body-content .content-title {
 	color:#fff;
-	margin-top:20px;
+	margin-top:30px;
 	padding:0 20px;
 }
 .body-section .main-body .body-content .content-title h3 {
@@ -163,10 +163,49 @@ body {
 }
 .body-section .main-body .body-content .content-title p {
 	width:80%;
-	margin-top:10px;
+	margin-top:20px;
 	word-spacing:2px;
 	line-height:18px;
 }
 .body-section .main-body .body-content .content-list {
 	color:#fff;
+	margin-top:10px;
+	padding:0 20px;
+}
+.body-section .main-body .body-content .content-list h2 {
+	margin-top:20px;
+}
+.body-section .main-body .body-content .content-list h2 a {
+	color:#fff;
+	font-size:14px;
+	text-transform:uppercase;
+	text-decoration:none;
+	line-height:26px;
+}
+.body-section .main-body .body-content .content-list span.title-line {
+	width:100%;
+	height:1px;
+	display:block;
+	background:url(images/title-line.png) no-repeat;
+}
+.body-section .main-body .body-content .content-list p {
+	width:80%;
+	margin-top:10px;
+	word-spacing:2px;
+	line-height:18px;
+}
+.body-section .main-body .body-content .content-list p a {
+	color:#fff;
+}
+.body-section .main-body .body-content .content-list p a.btn {
+	width:184px;
+	height:27px;
+	display:block;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	line-height:27px;
+	color:#0d6f32;
+	padding-left:10px;
+	background:url(images/post-btn.png) no-repeat;
 }
