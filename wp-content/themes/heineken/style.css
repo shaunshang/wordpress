@@ -127,18 +127,22 @@ body {
 
 /* ================ index.php ================ */
 .body-section {
+	width:1200px;
+	height:100%;
+	margin:0 auto;
 	position:relative;
 	margin-top:1px;
+	display:block;
 	overflow:visible;
 }
 .body-section .main-body {
 	width:568px;
 	min-height:100%;
-	margin:0 auto;
 	position:relative;
+	float:left;
 	overflow:visible;
-	display:block;
 	background:rgba(0, 0, 0, 0.1);
+	margin-left:290px;
 }
 .body-section .main-body .body-banner {
 	width:100%;
@@ -170,7 +174,7 @@ body {
 	padding:0 20px 20px 20px;
 }
 .body-section .main-body .body-content .content-list h2 {
-	margin-top:20px;
+	margin-top:30px;
 }
 .body-section .main-body .body-content .content-list h2 a {
 	color:#fff;
@@ -205,4 +209,112 @@ body {
 	color:#0d6f32;
 	padding-left:10px;
 	background:url(images/post-btn.png) no-repeat;
+}
+
+
+
+/* ================ sidebar.php ================ */
+.sidebar-section {
+	width:282px;
+	float:left;
+	margin-left:25px;
+	padding-top:100px;
+}
+
+
+/* ------ .sidebar-sub-section ------ */
+.sidebar-section ul.sidebar-sub-section {
+	margin-top:30px;
+	background:#146a2f;
+	border:solid 1px #0c421d;
+}
+.sidebar-section ul.sidebar-sub-section li {
+	min-height:22px;
+	line-height:22px;
+	padding:0 15px;
+}
+.sidebar-section ul.sidebar-sub-section li:last-child {
+	padding-bottom:10px;
+}
+.sidebar-section ul.sidebar-sub-section li a {
+	color:#fff;
+	text-decoration:none;
+}
+.sidebar-section ul.sidebar-sub-section li a:hover {
+	text-decoration:underline;
+}
+
+
+/* ------ .recent-posts ------ */
+.sidebar-section ul.recent-posts li {
+	list-style-image:url(images/list-image.png);
+	list-style-position:inside;
+	background:rgba(0, 0, 0, 0.1);
+}
+.sidebar-section ul.recent-posts li:first-child {
+	height:38px;
+	line-height:38px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	list-style:none;
+	background:url(images/sidebar-title-bg.png) no-repeat;
+}
+
+
+/* ------ .quick-links ------ */
+.sidebar-section ul.quick-links li {
+	list-style:none;
+	color:#fff;
+	background:rgba(0, 0, 0, 0.1);
+}
+.sidebar-section ul.quick-links li h2 {
+	padding:10px 0;
+}
+.sidebar-section ul.quick-links li:first-child {
+	height:38px;
+	line-height:38px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	list-style:none;
+	background:url(images/sidebar-title-bg.png) no-repeat;
+}
+.sidebar-section ul.quick-links li ul li {
+	height:auto;
+	background:none;
+	list-style-image:url(images/list-image.png);
+	list-style-position:inside;
+	padding:0;
+}
+.sidebar-section ul.quick-links li ul li:first-child {
+	height:20px;
+	line-height:20px;
+	background:none;
+	font-weight:normal;
+	list-style-image:url(images/list-image.png);
+	list-style-position:inside;
+	text-transform:none;
+}
+.sidebar-section ul.quick-links li ul li a.mailto {
+	text-decoration:underline;
+}
+
+
+/* ------ .quick-support ------ */
+.sidebar-section ul.quick-support li ul li {
+	height:auto!important;
+	list-style:none;
+	color:#fff;
+	background:rgba(0, 0, 0, 0.1);
+}
+
+
+.sidebar-section div.bottom-logo {
+	width:286px;
+	height:78px;
+	display:block;
+	background:url(images/bottom-logo.png) no-repeat;
+	margin-top:30px;
+	margin-left:-2px;
 }

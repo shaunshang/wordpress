@@ -7,6 +7,9 @@
 </head>
 <body>
 	<div class="container">
+		<div class="access">
+  <?php wp_nav_menu(); ?>
+</div>
 		<?php get_header(); ?>
 		
 		<div class="body-section">
@@ -30,6 +33,7 @@
 										<?php the_title() ?>
 									</a>
 								</h2>
+								<span class="title-line"></span>
 								<?php the_content() ?>
 							<?php endwhile; ?>
 						<?php endif ?>
@@ -37,9 +41,7 @@
 				</div>
 			</div>
 			
-			<!--
 			<?php get_sidebar(); ?>
-			-->
 		</div>
 		
 		<?php get_footer(); ?>
