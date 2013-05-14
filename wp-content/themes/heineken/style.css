@@ -85,14 +85,25 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#919191', endColorstr='#8f8f8f',GradientType=0 );
 	border-bottom:solid 1px #00712f;
 }
+.header-section .nav .logo {
+	width:160px;
+	height:80px;
+	position:relative;
+	float:left;
+	margin-top:-40px;
+	margin-left:100px;
+	background:url(images/logo.png) no-repeat;
+}
 .header-section .nav ul {
 	width:570px;
-	height:100%;
+	position:relative;
+	margin:0;
 	list-style:none;
+	white-space:nowrap;
 	margin:0 auto;
 }
 .header-section .nav ul li {
-	float:left;
+	display:inline-block;
 	width:130px;
 	height:100%;
 	list-style:none;
@@ -115,14 +126,6 @@ body {
 	line-height:40px;
 	text-decoration:none;
 }
-.header-section .user-control .logo {
-	width:160px;
-	height:80px;
-	position:absolute;
-	left:10%;
-	background:url(images/logo.png) no-repeat;
-}
-
 
 
 /* ================ index.php ================ */
@@ -251,7 +254,7 @@ body {
 	list-style-position:inside;
 	background:rgba(0, 0, 0, 0.1);
 }
-.sidebar-section ul.recent-posts li:first-child {
+.sidebar-section ul.recent-posts li.title {
 	height:38px;
 	line-height:38px;
 	color:#fff;
@@ -260,7 +263,9 @@ body {
 	list-style:none;
 	background:url(images/sidebar-title-bg.png) no-repeat;
 }
-
+.sidebar-section ul.recent-posts ul li:first-child {
+	padding-top:10px;
+}
 
 /* ------ .quick-links ------ */
 .sidebar-section ul.quick-links li {
@@ -280,14 +285,14 @@ body {
 	list-style:none;
 	background:url(images/sidebar-title-bg.png) no-repeat;
 }
-.sidebar-section ul.quick-links li ul li {
+.sidebar-section ul.quick-links ul li {
 	height:auto;
 	background:none;
 	list-style-image:url(images/list-image.png);
 	list-style-position:inside;
 	padding:0;
 }
-.sidebar-section ul.quick-links li ul li:first-child {
+.sidebar-section ul.quick-links ul li:first-child {
 	height:20px;
 	line-height:20px;
 	background:none;
@@ -296,7 +301,7 @@ body {
 	list-style-position:inside;
 	text-transform:none;
 }
-.sidebar-section ul.quick-links li ul li a.mailto {
+.sidebar-section ul.quick-links ul li a.mailto {
 	text-decoration:underline;
 }
 

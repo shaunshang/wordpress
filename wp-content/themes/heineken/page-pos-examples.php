@@ -22,18 +22,8 @@
 						</p>
 					</div>
 					<div class="content-list">
-						<?php if(have_posts()) : ?>
-							<?php while(have_posts()) : the_post() ?>
-								<h2>
-									<a href="<?php the_permalink() ?>"
-										title="Permanent link to <?php the_title_attribute() ?>">
-										<?php the_title() ?>
-									</a>
-								</h2>
-								<span class="title-line"></span>
-								<?php the_content() ?>
-							<?php endwhile; ?>
-						<?php endif ?>
+						<br/><br/><br/>
+						<h1><center>POS Examples Page</center></h1>
 					</div>
 				</div>
 			</div>

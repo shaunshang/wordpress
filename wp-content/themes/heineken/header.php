@@ -1,6 +1,5 @@
 <div class="header-section">
 	<div class="user-control">
-		<div class="logo"></div>
 		<ul>
 			<li>
 				Welcome
@@ -16,8 +15,7 @@
 		</ul>
 	</div>
 	<div class="nav">
-		<ul>
-			<?php wp_list_pages('title_li='); ?>
-		</ul>
+		<div class="logo"></div>
+		<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => '' ) ); ?>
 	</div>
 </div>

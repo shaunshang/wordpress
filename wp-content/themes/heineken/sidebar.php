@@ -1,12 +1,9 @@
 <div class="sidebar-section">
-	<ul class="sidebar-sub-section recent-posts">
-		<li>Recent Posts</li>
-		<?php wp_get_archives(array( 'type' => 'postbypost', 'limit' => 10)); ?>
-	</ul>
+	<?php dynamic_sidebar('recent-posts') ?>
 	
 	<ul class="sidebar-sub-section quick-links">
 		<li>Quick Links</li>
-		<?php wp_list_bookmarks('title_li='); ?>
+		<?php dynamic_sidebar('quick-links') ?>
 	</ul>
 	
 	<ul class="sidebar-sub-section quick-links quick-support">
