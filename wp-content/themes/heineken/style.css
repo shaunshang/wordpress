@@ -18,8 +18,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 }
+a {
+    color:#fff;
+    font-weight:normal;
+    white-space:nowrap;
+}
 body {
 	height:100%;
+	overflow:hidden;
 }
 .container {
 	height:100%;
@@ -201,7 +207,7 @@ body {
 .body-section .main-body .body-content .content-list p a {
 	color:#fff;
 }
-.body-section .main-body .body-content .content-list p a.btn {
+.body-section .main-body .body-content .content-list a.btn {
 	width:184px;
 	height:27px;
 	display:block;
@@ -266,6 +272,31 @@ body {
 .sidebar-section ul.recent-posts ul li:first-child {
 	padding-top:10px;
 }
+.sidebar-section ul.recent-posts div label {
+    height:38px;
+    line-height:38px;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:bold;
+    list-style:none;
+    background:url(images/sidebar-title-bg.png) no-repeat;
+    display:block;
+    padding-left:15px;
+}
+.sidebar-section ul.recent-posts div input#s {
+    height:24px;
+    margin:5px 0 5px 15px;
+    moz-border-radius:6px;
+    webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #ccc;;
+    display:inline-block;
+}
+.sidebar-section ul.recent-posts div input#searchsubmit {
+    height:24px;
+}
+
+
 
 /* ------ .quick-links ------ */
 .sidebar-section ul.quick-links li {

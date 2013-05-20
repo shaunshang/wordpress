@@ -8,8 +8,6 @@
 </head>
 <body>
 	<div class="container">
-		<?php get_header(); ?>
-		
 		<div class="body-section">
 			<div class="main-body">
 				<div class="body-banner"></div>
