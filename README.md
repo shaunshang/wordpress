@@ -1,4 +1,0 @@
-wordpress
-=========
-
-For learning WordPress
